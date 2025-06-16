@@ -1,0 +1,23 @@
+/* Import Tailwind's base styles, components, and utilities */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Custom font import from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+/* Basic global styles for the body */
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif; /* Apply the custom Inter font */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #F3F4F6; /* Light gray background (Tailwind gray-100) */
+  color: #1F2937; /* Dark gray text color (Tailwind gray-900) */
+}
+
+/* Basic styling for code snippets */
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
