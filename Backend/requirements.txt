@@ -1,11 +1,11 @@
-fastapi==0.111.0
-uvicorn==0.30.1
-python-multipart==0.0.9
-python-dotenv==1.0.1
-httpx==0.27.0
-PyPDF2==3.0.1
-python-docx==1.1.0
-pydantic==2.6.4
-pydantic-settings==2.3.4
-groq==0.8.0
-gtts==2.4.0 # Added gtts library for Text-to-Speech
+fastapi
+uvicorn
+python-multipart
+python-dotenv
+httpx
+PyPDF2
+python-docx
+pydantic
+pydantic-settings
+groq
+gtts
