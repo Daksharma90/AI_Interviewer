@@ -68,7 +68,7 @@ function UploadResume({ onStartInterview }) {
     console.log("Frontend: Sending resume and domain to backend...");
 
     try {
-      const response = await fetch('http://127.0.0.1:8001/start-interview', {
+      const response = await fetch('http://127.0.0.1:8000/start-interview', {
         method: 'POST',
         body: formData,
       });

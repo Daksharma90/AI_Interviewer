@@ -50,7 +50,7 @@ function InterviewPanel({ sessionId, initialQuestion, initialAudioUrl, onEndInte
     console.log("Frontend: Sending answer. Timeout:", isTimeout, "Force End:", forceEnd, "Question ID:", currentQuestion?.id);
     let responseData = null;
     try {
-      const response = await fetch('http://127.0.0.1:8001/submit-answer', {
+      const response = await fetch('http://127.0.0.1:8000/submit-answer', {
         method: 'POST',
         body: formData,
       });
